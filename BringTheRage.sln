@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BringTheRage.Client", "BringTheRage.Client\BringTheRage.Client.csproj", "{95A00535-560D-49D4-A2B7-8CB6539C8B3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BringTheRage.Server", "BringTheRage.Server\BringTheRage.Server.csproj", "{AEF1F590-D543-43DA-B898-73BA7189CE51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BringTheRage.Shared", "BringTheRage.Shared\BringTheRage.Shared.csproj", "{342476F8-0FC1-43BB-B1A2-B0EEBD0BB5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BringTheRage.Domain", "BringTheRage.Domain\BringTheRage.Domain.csproj", "{F726D8FB-F42D-423A-A10C-289F95EE7929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BringTheRage.Infrastructure", "BringTheRage.Infrastructure\BringTheRage.Infrastructure.csproj", "{232F91E1-C657-4E2B-BFBE-95F87DBF5401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{67D3EB35-7318-41BD-AEE9-167CBB1E2B5E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95A00535-560D-49D4-A2B7-8CB6539C8B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A00535-560D-49D4-A2B7-8CB6539C8B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A00535-560D-49D4-A2B7-8CB6539C8B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A00535-560D-49D4-A2B7-8CB6539C8B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF1F590-D543-43DA-B898-73BA7189CE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF1F590-D543-43DA-B898-73BA7189CE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF1F590-D543-43DA-B898-73BA7189CE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF1F590-D543-43DA-B898-73BA7189CE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342476F8-0FC1-43BB-B1A2-B0EEBD0BB5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342476F8-0FC1-43BB-B1A2-B0EEBD0BB5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342476F8-0FC1-43BB-B1A2-B0EEBD0BB5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342476F8-0FC1-43BB-B1A2-B0EEBD0BB5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F726D8FB-F42D-423A-A10C-289F95EE7929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F726D8FB-F42D-423A-A10C-289F95EE7929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F726D8FB-F42D-423A-A10C-289F95EE7929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F726D8FB-F42D-423A-A10C-289F95EE7929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232F91E1-C657-4E2B-BFBE-95F87DBF5401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232F91E1-C657-4E2B-BFBE-95F87DBF5401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232F91E1-C657-4E2B-BFBE-95F87DBF5401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232F91E1-C657-4E2B-BFBE-95F87DBF5401}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B61D0996-F267-42C3-B9EB-D7772D556E04}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿@page "/logout"
+
+@using BringTheRage.Client.Services
+
+@inject IAuthenticationService AuthenticationService
+@inject NavigationManager NavigationManager
+
+@code {
+  protected override async Task OnInitializedAsync() {
+    await AuthenticationService.Logout();
+    NavigationManager.NavigateTo("/");
+  }
+}
